@@ -1,3 +1,4 @@
+
 # Project Learn Swagger
 
 ## Background
@@ -28,7 +29,6 @@ Learn and share how to use Swagger IO in your API development.
     - **YAML**: [Learn YAML](http://yaml.org)
     - **Node.js**: [Install Node.js](https://nodejs.org/en/)
     - **Express.js**: [Learn Express](https://expressjs.com/)
-    - **PostgreSQL**: [Install PostgreSQL](https://www.postgresql.org/)
     - **Swagger Code Editor**: [Swagger Editor](https://editor.swagger.io/)
     - **NPM**: [Learn NPM](https://www.npmjs.com/)
     
@@ -38,21 +38,9 @@ Learn and share how to use Swagger IO in your API development.
 3. Install dependencies:
    ```bash
    npm install
-````
 
-4. Install PostgreSQL and run the schema:
 
-   ```bash
-   psql.exe -U <your-username> -d <your-dbname> -f tshirt.sql
-   ```
-
-5. Update the connection string in `queries.js`:
-
-   ```javascript
-   var connectionString = 'postgres://<your-username>:<your-password>@localhost:5432/tshirt';
-   ```
-
-6. Start the server:
+4. Start the server:
 
    ```bash
    npm start
@@ -98,7 +86,4 @@ See the [Contributing Guidelines](CONTRIBUTING.md) and [List of Contributors](ht
 
 For a detailed list of changes, check out the [Changelog](CHANGELOG.md).
 
-```
 
-Now the installation steps, hosting, and contributing instructions are all inside the markdown code block as you requested!
-```
