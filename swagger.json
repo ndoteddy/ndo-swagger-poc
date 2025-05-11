@@ -1,15 +1,21 @@
 {
+  "openapi": "3.0.0",
   "info": {
     "title": "Tshirt API - Nando'z",
     "version": "1.0.0",
     "description": "Demonstrating how to describe a RESTful API with Swagger - Bottom Up Approach"
   },
-  "host": "localhost:3000",
-  "basePath": "/",
-  "swagger": "2.0",
-  "paths": { },
-  "definitions": { },
-  "responses": { },
-  "parameters": { },
-  "securityDefinitions": { }
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Local development server"
+    }
+  ],
+  "paths": {},
+  "components": {
+    "schemas": {},
+    "responses": {},
+    "parameters": {},
+    "securitySchemes": {}
+  }
 }
